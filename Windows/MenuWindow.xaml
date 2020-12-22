@@ -1,0 +1,16 @@
+﻿<Window x:Class="curse_work.Windows.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:curse_work.Windows"
+        mc:Ignorable="d"
+        Title="MenuWindow" 
+        MinHeight="450" MinWidth="800" 
+        MaxHeight="450" MaxWidth="800">
+    <Grid>
+        <Button Content="Абитурьент" HorizontalAlignment="Center" Margin="0,102,0,0" VerticalAlignment="Top" Height="32" Width="154" Click="StudentsAddOpenWindow"/>
+        <Button Content="Учебные заведения" HorizontalAlignment="Center" Margin="0,156,0,0" VerticalAlignment="Top" Height="32" Width="154" Click="EduOpenWindow"/>
+        <Button Content="Список Абитурьентов" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="32" Width="154" Click="StudentsOpenWindow"/>
+    </Grid>
+</Window>
